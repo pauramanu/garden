@@ -1,6 +1,3 @@
-.card-header-banca{
-	background: #EE6055 !important;
-}
 .card-pianta{
 	border-color: #3BB273 !important;
 	background: #3BB273 !important;
@@ -11,21 +8,6 @@
 	background: #8275b5 !important;
 	margin: unset !important;
 	font-size: 0.9rem !important;
-}
-.card-header-varieta{
-	background: #E1BC29 !important;
-}
-.container-scheda-banca li:nth-child(odd){
-	background: #FF9B85;
-}
-.container-scheda-banca li:nth-child(even){
-	background: #FAB3A9;
-}
-.container-scheda-varieta li:nth-child(odd){
-	background: #F2F3AE;
-}
-.container-scheda-varieta li:nth-child(even){
-	background: #E3DE8F;
 }
 .container-scheda-pianta li:nth-child(odd){
 	background: #84BC9C;
@@ -59,7 +41,6 @@
   width: 100% !important;
 }
 
-
 .react-datepicker__input-container input:disabled, .form-control[readonly], input:disabled {
     background-color: #e9ecef !important;
     opacity: 1 !important;
@@ -91,8 +72,6 @@ input:disabled div:before {
   line-height  : 1;
   border-radius : .2rem;
 }
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -101,45 +80,4 @@ input:disabled div:before {
 }
 .card-body {
     padding: none !important;
-}
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-.header {
-  background-color: #55B9C3;
-  color: #DD5235;
-  /*
-  #503197
-  #8364CB
-  #967FCB
-  #DDC435
-  */
-}
-.App div:parent {
-	background: #282c34;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
